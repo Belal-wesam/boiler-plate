@@ -93,6 +93,17 @@
                  </a>
              </li>
          @endif
+
+         @if (auth()->user()->hasAbilityTo('see banners'))
+             <!-- Adminstrators -->
+             <li class="menu-header small text-uppercase"><span class="menu-header-text">@lang('nav.banners')</span></li>
+             <li class="menu-item">
+                 <a href="{{ route('admin.banners.index') }}" class="menu-link">
+                     <i class="menu-icon tf-icons bx bx-image"></i>
+                     <div data-i18n="@lang('nav.banners')">@lang('nav.banners')</div>
+                 </a>
+             </li>
+         @endif
      </ul>
  </aside>
  <!-- / Menu -->

@@ -6,4 +6,5 @@ return [
     'admins' => 'مدراء النظام',
     'adminstrators' => 'إدارة النظام',
     'categories' => 'التصنيفات',
+    "banners" => "البانرات"
 ];
