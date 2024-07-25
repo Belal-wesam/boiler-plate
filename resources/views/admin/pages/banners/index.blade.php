@@ -41,10 +41,6 @@
             </table>
         </div>
     </div>
-
-
-
-
     <!-- Add Modal -->
     <div class="modal fade" id="addBannerModal" tabindex="-1" aria-labelledby="addBannerModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
